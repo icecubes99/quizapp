@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'second_page.dart';
+import 'screens/quiz_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -98,7 +98,7 @@ class QuizMainScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const SecondPage(),
+                          builder: (context) => const QuizScreen(),
                         ),
                       );
                     },
